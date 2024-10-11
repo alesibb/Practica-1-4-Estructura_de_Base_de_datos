@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Productos</h1>
+        <div id="inputArea">
+            <input type="text" id="productName" placeholder="Nombre del producto" />
+            <input type="number" id="productPrice" placeholder="Precio" min="0" />
+            <button id="addProductBtn">Agregar Producto</button>
+        </div>
+
+        <h2>Productos</h2>
+        <ul id="productList"></ul>
+        
+        <h2>Costo Total</h2>
+        <div id="totalCost">Total: $0.00</div>
+
+        <h2>Eliminar Producto</h2>
+        <input type="text" id="removeCode" placeholder="Código del producto" />
+        <button id="removeProductBtn">Eliminar Producto</button>
+
+        <h2>Productos Eliminados</h2>
+        <ul id="removedProducts"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

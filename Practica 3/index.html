@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprobados y Reprobados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Calificaciones</h1>
+        <div id="inputArea">
+            <input type="text" id="studentName" placeholder="Nombre del alumno" />
+            <input type="number" id="studentGrade" placeholder="Calificación" min="0" max="10" />
+            <button id="addStudentBtn">Agregar Alumno</button>
+        </div>
+        
+        <h2>Aprobados</h2>
+        <ul id="passedStudents"></ul>
+        
+        <h2>Reprobados</h2>
+        <ul id="failedStudents"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
